@@ -1,0 +1,22 @@
+
+.custom-footer {
+    background: linear-gradient(90deg, #4caf50, #2196f3); 
+    color: white; 
+    padding: 20px 0; 
+  }
+  
+  .custom-footer h5 {
+    color: white; 
+  }
+  
+  .custom-footer a {
+    color: white; 
+  }
+  
+  .custom-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .custom-footer .text-center small {
+    color: rgba(255, 255, 255, 0.8); 
+  }

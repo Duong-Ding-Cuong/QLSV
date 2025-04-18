@@ -1,0 +1,36 @@
+.custom-header {
+    background: linear-gradient(90deg, #4caf50, #2196f3); 
+    height: 80px; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .custom-header .nav-link {
+    color: white !important; 
+  }
+  
+  .custom-header .nav-link:hover {
+    text-decoration: underline; 
+  }
+  button.ant-btn-primary {
+    background: #2196f3;
+    border: none; 
+    color: white; 
+    font-weight: bold; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    transition: all 0.3s ease; 
+  }
+  
+  button.ant-btn-primary:hover {
+    background: linear-gradient(90deg, #2196f3, #4caf50);
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  button.ant-btn-primary:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.5); 
+  }

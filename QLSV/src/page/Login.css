@@ -1,0 +1,81 @@
+/* Full-page background */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4caf50, #2196f3); /* Gradient background */
+  padding: 2rem;
+}
+
+/* Logo container */
+.logo-container {
+  margin-bottom: 2rem;
+}
+
+/* Login card styling */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 2rem;
+}
+
+.login-card .ant-card-head {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-card .ant-btn-primary {
+  background-color: #4caf50; /* Green button */
+  border-color: #4caf50;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-card .ant-btn-primary:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.login-card .ant-btn-link {
+  color: #2196f3; /* Blue link */
+  transition: color 0.3s ease;
+}
+
+.login-card .ant-btn-link:hover {
+  color: #1769aa; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.login-card .text-center {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.login-card .text-center a {
+  color: #2196f3;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.login-card .text-center a:hover {
+  color: #1769aa;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 1rem;
+  }
+
+  .login-card {
+    padding: 1.5rem;
+  }
+}

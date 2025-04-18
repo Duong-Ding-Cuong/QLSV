@@ -1,0 +1,103 @@
+/* Card styling */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  /* Image styling */
+  .card img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .card img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    opacity: 0.9; /* Slight dimming effect */
+  }
+  
+  /* Title link styling */
+  .card .fw-bold.text-dark {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .card .fw-bold.text-dark:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Pagination styling */
+  .pagination {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pagination .ant-pagination-item-active {
+    background-color: #4caf50; /* Active page background */
+    border-color: #4caf50;
+    color: white;
+  }
+  
+  .pagination .ant-pagination-item:hover {
+    background-color: #2196f3; /* Hover background */
+    color: white;
+  }
+  
+  /* Button styling */
+  .button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ff5722; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Modal animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .ant-modal {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  /* Skeleton loader animation */
+  .ant-skeleton {
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #f0f0f0;
+    }
+    50% {
+      background-color: #e0e0e0;
+    }
+    100% {
+      background-color: #f0f0f0;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 1rem;
+    }
+  
+    .pagination {
+      justify-content: center;
+    }
+  }
