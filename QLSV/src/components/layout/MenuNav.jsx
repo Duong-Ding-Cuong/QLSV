@@ -12,7 +12,7 @@ const MenuNav = () => {
     : null;
 
   // Kiểm tra xem người dùng có email cụ thể hay không
-  const isSpecificUser = user?.email === "phamhang51123@gmail.com";
+  const isSpecificUser = user?.email === "cduong530@gmail.com";
 
   return (
     <nav className="navbar navbar-expand navbar-light bg-white shadow-sm px-4">
