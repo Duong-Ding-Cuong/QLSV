@@ -57,7 +57,7 @@ const FooterComponent = () => {
           <div className="col-lg-3 col-md-6 mb-4">
             <h5 className="fw-bold">Sinh viên thực hiện</h5>
             <ul className="list-unstyled">
-              <li>2100923 - Trịnh Xuân Mạnh-</li>
+              <li>2100923 - Trịnh Xuân Mạnh</li>
               <li>2101134 - Nguyễn viết Tiến Đạt</li>
               <li>2101117 - Phạm Quang Linh</li>
               <li>2101272 - Phạm Văn Hoàng</li>
