@@ -11,7 +11,7 @@ const FooterComponent = () => {
       <div className="container py-4">
         <div className="row">
           {/* Giới thiệu về chúng tôi */}
-          <div className="col-lg-3 col-md-6 mb-4">
+          <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold">Về Chúng Tôi</h5>
             <p>
               Nhóm nhỏ năng động, nơi sinh viên cùng nhau chia sẻ kiến thức, hỗ trợ lẫn nhau và phát triển bản thân. Tham gia cùng chúng tôi để kết nối và học hỏi!
@@ -19,7 +19,7 @@ const FooterComponent = () => {
           </div>
 
           {/* Liên kết nhanh */}
-          <div className="col-lg-3 col-md-6 mb-4">
+          <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold">Liên Kết Nhanh</h5>
             <ul className="list-unstyled">
               <li>
@@ -38,7 +38,7 @@ const FooterComponent = () => {
           </div>
 
           {/* Mạng xã hội */}
-          <div className="col-lg-3 col-md-6 mb-4">
+          <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold">Kết Nối Với Chúng Tôi</h5>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a href="https://facebook.com" className="text-light me-3 fs-4" aria-label="Facebook">
@@ -54,7 +54,7 @@ const FooterComponent = () => {
           </div>
 
 
-          <div className="col-lg-3 col-md-6 mb-4">
+          <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold">Sinh viên thực hiện</h5>
             <ul className="list-unstyled">
               <li>2100923 - Trịnh Xuân Mạnh</li>

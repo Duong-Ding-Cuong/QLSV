@@ -1,5 +1,5 @@
 .custom-header {
-    background: linear-gradient(90deg, #4caf50, #2196f3); 
+    background: linear-gradient(90deg, #000000, #042f52); 
     height: 80px; 
     color: white; 
     display: flex;
@@ -25,7 +25,7 @@
   }
   
   button.ant-btn-primary:hover {
-    background: linear-gradient(90deg, #2196f3, #4caf50);
+    background: linear-gradient(90deg,#042f52 , #000000);
     transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }

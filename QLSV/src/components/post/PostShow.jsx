@@ -80,7 +80,7 @@ const PostShow = () => {
               alt="Post image"
               style={{
                 maxWidth: "100%",
-                maxHeight: "800px",
+                maxHeight: "500px",
                 objectFit: "contain",
                 borderRadius: "4px",
                 marginTop: "10px",

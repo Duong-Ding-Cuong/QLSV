@@ -1,12 +1,12 @@
 /* Navbar container styling */
 .navbar {
-  background: linear-gradient(90deg, #758ec9, #2196f3); 
+  background: linear-gradient(90deg, #2196f3); 
   color: white;
   transition: background 0.3s ease-in-out;
 }
 
 .navbar:hover {
-  background: linear-gradient(90deg, #2196f3, #4caf50); 
+  background: linear-gradient(90deg, #a1101c); 
 }
 
 

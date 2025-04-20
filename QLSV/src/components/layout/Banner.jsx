@@ -4,15 +4,15 @@ import "./Banner.css";
 
 const images = [
   {
-    src: "https://media.viu.edu.vn/Media/2_TSVIU/FolderFunc/202205/Images/lien-5-20220508111322-e.jpg",
+    src: "https://marketingai.mediacdn.vn/wp-content/uploads/2018/06/Banner-Ad-Design-Examples-770x405.png",
     alt: "Beautiful mountain landscape at sunrise",
   },
   {
-    src: "https://media.viu.edu.vn/Media/2_TSVIU/FolderFunc/202209/Images/dsc01747jpg-20220911054933-e.jpg",
+    src: "https://lambanner.com/wp-content/uploads/2016/09/lambanner-thiet-ke-banner.jpg",
     alt: "Serene lake surrounded by trees",
   },
   {
-    src: "https://media.viu.edu.vn/Media/2_TSVIU/FolderFunc/202503/Images/11-20250304093745-e.jpg",
+    src: "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/02/tim-hinh-anh-dep.jpg",
     alt: "Snow-covered mountain peaks under a clear sky",
   },
 ];

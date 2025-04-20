@@ -59,15 +59,15 @@ const PostRelated = ({ postId, topicId }) => {
   if (!relatedPosts.length) {
     return (
       <div className="related-posts mt-5">
-        <Title level={3}>Related Posts</Title>
-        <p>No posts found for this topic.</p>
+        <Title level={3}>bài viết liên quan</Title>
+        <p>Không tìm thấy bài viết nào cho chủ đề này.</p>
       </div>
     );
   }
 
   return (
     <div className="related-posts">
-      <Title level={3}>Related Posts</Title>
+      <Title level={3}>bài viết liên quan</Title>
       <Col gutter={[16, 16]}>
         {paginatedPosts.map((post) => (
           <Col key={post._id}>

@@ -41,16 +41,16 @@ const StudentData = () => {
   }, []);
 
   return (
-    <Card title="CÁC TÁC GIẢ HÀNG ĐẦU" className="p-3 mt-4 me-5 h-50">
+    <Card title="CÁC TÁC GIẢ HÀNG ĐẦU" className="p-3 mt-5">
       {topAuthors.map((author) => (
         <div
           key={author._id}
-          className="d-flex align-items-center mb-3 cursor-pointer"
+          className="d-flex mb-3 cursor-pointer  border-bottom border-dark"
           onClick={() => navigate(`/student/${author._id}`)}
         >
-          <div className="flex-grow-1">
+          <div className="flex-grow-1 me-3">
             <h6 className="mb-0">{author.name}</h6>
-            <p className="text-muted mb-0">
+            <p className="text-muted mb-1">
               Số bài viết: {author.postCount}
             </p>
           </div>
